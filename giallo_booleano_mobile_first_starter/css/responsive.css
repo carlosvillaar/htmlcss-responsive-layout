@@ -1,20 +1,36 @@
 /* Soluzione qui */
 
-@media (min-width:768px) {
+@media (min-width:768px){
+
   #topbar {
     justify-content: left;
   }
+
   .container {
     padding: 32px 0;
   }
+
   .recipe-origin {
     display: inline;
   }
+
   .recipe-name {
     font-size:2rem;
   }
 
   .ads {
     display:block;
+  }
+}
+
+@media (min-width:768px) and (max-width:991px){
+
+  .quick-notes ul{
+    display:flex;
+    flex-wrap: wrap;
+  }
+
+  .quick-notes ul li {
+    width: calc(100% / 3)
   }
 }
