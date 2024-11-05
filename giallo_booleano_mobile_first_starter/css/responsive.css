@@ -76,3 +76,15 @@
     align-items: center;
   }
 }
+
+@media (min-width:576px){
+
+  .clearfix img{
+    float:left;
+    margin-right:16px;
+  }
+
+  .social-networks .btn{
+    width:calc(100% / 5);
+  }
+}
